@@ -1,0 +1,39 @@
+.outer {
+    alignment-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner {
+    alignment-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 1110px;
+    background-color: lightgray;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    height: 14px;
+    width: 14px;
+    border: 1px solid gray;
+}
+
+.palette {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
