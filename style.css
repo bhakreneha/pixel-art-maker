@@ -36,4 +36,13 @@
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
+    margin: 3px;
+}
+
+.drag {
+    cursor: move;
+}
+
+.stay {
+    cursor: hand;
 }

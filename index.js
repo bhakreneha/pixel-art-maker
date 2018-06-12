@@ -18,6 +18,16 @@ for (let y=0; y<36; y++){
         col.addEventListener('click', () => {
             col.style.backgroundColor = brush;
         });
+        col.addEventListener('dragenter' ,() => {
+            col.className = 'column drag';
+            col.style.backgroundColor = brush;
+        })
+        col.addEventListener('dragover' ,() => {
+            col.style.backgroundColor = brush;
+        })
+        col.addEventListener('dragend' ,() => {
+            col.className = 'column stay';
+        })
         row.appendChild(col);
     }
     divCanvas.appendChild(row);
